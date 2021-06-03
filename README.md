@@ -2,6 +2,7 @@
 Complete Android Note, Password generator and Flashlight App with clean architecture, MVVM, Room Database, Navigation Components, Safe Args, and Search View.
 
 ## Main screen
+![](images/image_2021-06-03_181700.png)
 
 ## Notes App
 <img src="https://user-images.githubusercontent.com/68303716/104845731-aab6f380-58df-11eb-8d76-f126d86aeb8a.jpg" width="267" height="580">
