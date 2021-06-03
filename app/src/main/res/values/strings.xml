@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note App</string>
+    <string name="image">image</string>
+    <string name="bersyte">bersyte</string>
+    <string name="flash_light">Фонарик</string>
+    <string name="generate_password">Сгенерировать пароль</string>
+    <string name="save_password">Сохранить пароль</string>
+    <string name="choose_func">Выберите функцию</string>
+    <string name="notebook">Записная книжка</string>
+    <string name="flashlight">Фонарик</string>
+    <string name="password_generator">Генератор паролей</string>
+    <string name="note_title">Note title</string>
+    <string name="type_something">Type something...</string>
+    <string name="type_your_title">Type your title</string>
+    <string name="no_notes_available">No notes available!!!</string>
+</resources>
