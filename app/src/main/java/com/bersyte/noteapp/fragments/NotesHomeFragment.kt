@@ -5,10 +5,8 @@
 import android.os.Bundle
 import android.view.*
 import androidx.appcompat.widget.SearchView
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.bersyte.noteapp.MainActivity
 import com.bersyte.noteapp.R
 import com.bersyte.noteapp.adapter.NoteAdapter
 import com.bersyte.noteapp.databinding.FragmentHomeBinding
@@ -61,7 +59,6 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
             noteAdapter.differ.submitList(note)
             updateUI(note)
         })
-
     }
 
     private fun updateUI(note: List<Note>) {

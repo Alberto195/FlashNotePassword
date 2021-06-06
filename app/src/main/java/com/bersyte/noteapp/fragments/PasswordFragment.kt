@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.bersyte.noteapp.R
 import com.bersyte.noteapp.databinding.PasswordFragmentBinding

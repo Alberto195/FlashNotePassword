@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bersyte.noteapp.databinding.NoteLayoutAdapterBinding
-import com.bersyte.noteapp.fragments.NotesHomeFragment
 import com.bersyte.noteapp.fragments.NotesHomeFragmentDirections
 import com.bersyte.noteapp.model.Note
 import java.util.*

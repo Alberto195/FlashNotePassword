@@ -1,11 +1,6 @@
 package com.bersyte.noteapp.viewmodel
 
-import android.app.Application
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.asFlow
-import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.bersyte.noteapp.db.NoteDao
 import com.bersyte.noteapp.model.Note
 import com.bersyte.noteapp.repository.NoteRepository
 import kotlinx.coroutines.launch

@@ -2,10 +2,7 @@ package com.bersyte.noteapp.fragments
 
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
-import com.bersyte.noteapp.MainActivity
 import com.bersyte.noteapp.R
 import com.bersyte.noteapp.databinding.FragmentNewNoteBinding
 import com.bersyte.noteapp.model.Note

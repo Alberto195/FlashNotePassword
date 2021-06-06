@@ -1,10 +1,7 @@
 package com.bersyte.noteapp.viewmodel
 
-import android.os.Bundle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.navigation.Navigation
-import com.bersyte.noteapp.R
 
 class PasswordViewModel: BaseViewModel() {
     private val charachters = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!#$%()=?"

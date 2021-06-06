@@ -1,7 +1,6 @@
 package com.bersyte.noteapp.repository
 
 import com.bersyte.noteapp.db.NoteDao
-import com.bersyte.noteapp.db.NoteDatabase
 import com.bersyte.noteapp.model.Note
 
 class NoteRepository(private val noteDao: NoteDao) {
