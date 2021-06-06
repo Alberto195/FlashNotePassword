@@ -11,18 +11,17 @@ class FlashlightViewModel: BaseViewModel() {
     var isFlash = false
 
     fun flashLightOnOrOff(context: Context) {
-        /**set flash code*/
         val cameraListId = cameraM.cameraIdList[0]
         try {
             if (!isFlash) {
                 cameraM.setTorchMode(cameraListId,true)
                 isFlash = true
-                textMassage("Flash Light is On", context)
+//                textMassage("Flash Light is On", context)
             }
             else {
                 cameraM.setTorchMode(cameraListId,false)
                 isFlash = false
-                textMassage("Flash Light is Off", context)
+//                textMassage("Flash Light is Off", context)
             }
         } catch (e: Exception) {
             textMassage("Cant connect to flashlight", context)

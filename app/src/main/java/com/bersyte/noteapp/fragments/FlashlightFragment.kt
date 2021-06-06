@@ -39,6 +39,7 @@ class FlashlightFragment: BaseFragment<FlashlightViewModel, FlashlightFragmentBi
         binding!!.stroboscope.setOnClickListener {
             for (i in 1..20) {
                 viewModel.flashLightOnOrOff(requireContext())
+                Thread.sleep(30)
             }
         }
 
